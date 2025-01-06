@@ -1,0 +1,9 @@
+.css-tlc64q-MuiPaper-root-MuiDialog-paper {
+  background-color: #1f1f1f !important;
+  color: #fff;
+  margin: 0 !important;
+  border-radius: 40px;
+  backdrop-filter: blur(24px);
+  padding-inline: 24px;
+  padding-block: 10px;
+}

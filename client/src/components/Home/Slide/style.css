@@ -1,0 +1,58 @@
+@import "swiper/css";
+@import "swiper/css/pagination";
+@import "swiper/css/navigation";
+
+/* ------------------------Swiper----------------------------------- */
+.swiper {
+  width: 100%;
+  height: clamp(400px, 40vw, 600px);
+  margin-bottom: clamp(1em, 2vw, 1.8em);
+}
+
+.swiper-slide {
+  color: azure;
+  background: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+.swiper-slide .slider-content {
+  position: absolute;
+  left: 7vw;
+  margin-top: 100px;
+}
+
+.swiper-slide .slider-content .slider-navigate {
+  padding-top: 5px;
+  margin-left: -15px;
+}
+
+.swiper-pagination {
+  left: 90px;
+  font-size: 25px;
+  padding-bottom: 5px;
+}
+
+#theme-btn2{
+  height: 60px; 
+  width: 60px;
+  font-weight: bold;
+  border-radius: 50%;
+  border: 1px  solid #fff;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  margin-inline: 6px;
+}
